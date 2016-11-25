@@ -3,8 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Document</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
   <!--
   コメント。HTML以外の情報を書ける。
   Webページのソースに表示されるので、秘密の情報は
@@ -13,14 +23,32 @@
 <link rel="stylesheet" href="./mystyles.css">
 </head>
 <body>
+
+  <div id="header" style="background: red;">header</div>
+
+<div class="container" id="header" style="background: red;">header</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3" style="background: pink">Side1</div>
+    <div class="col-sm-6" style="background: green">Main</div>
+    <div class="col-sm-3" style="background: skyblue">Side2</div>
+</div>
+</div>
+
+    <div id="footer" style="background: blue;">footer</div>
+
+  </header>
+
+  </div>
   <h1>作品ページ</h1>
-        <p>学籍番号：11</p>
+        <p class="work-title">学籍番号：11</p>
         <p>古河　俊悟</p>
         <dl>
-            <dt><a href="./yoketoru_unity/">よけとるUnity</a></li></dt>
+            <dt class="work-title"><a href="./yoketoru_unity/">よけとるUnity</a></li></dt>
             <dd>ゲームプログラミングの講義で作成した習作。</dd>
 
-            <dt><a href="./folder2/">作品２</a></li></dt>
+            <dt class="work-title"><a href="./folder2/">作品２</a></li></dt>
             <dd>作品２の概要をここに書きましょう。</dd>
         </dl>
 </body>
